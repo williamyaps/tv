@@ -57,7 +57,7 @@
           });
         });
         fadeOut(iframe, 100);
-        attr(iframe, {src: `https://zazerconer.github.io/live-tv-malaysia-with-player${attr(list, "target")}`});
+        attr(iframe, {src: `https://williamyaps.github.io/tv${attr(list, "target")}`});
         style(list, {
           color: "#7ccae9"
         });
