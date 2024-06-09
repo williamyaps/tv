@@ -24,7 +24,7 @@
            <span target="/channel/myfreeview/awani/index.html" name="AWANI"></span>
            <span target="/channel/myfreeview/tv-ikim/index.html" name="TV IKIM"></span>
            <span target="/channel/myfreeview/tvs/index.html" name="TVS"></span>
-		   <span target="/channel/myfreeview/s8/index.html" name="S8"></span>
+		   <span target="/channel/myfreeview/s8/index.html" name="TEMON SPORT"></span>
          </div>
        </div>
     `);
