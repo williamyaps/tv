@@ -33,6 +33,7 @@
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
 	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>
 	   <span target="/channel/myfreeview/trans7/index.html" name="RCTI"></span>
+           <span target="/channel/myfreeview/trans7/rtv.html" name="RTV"></span>
 	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
 	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>
