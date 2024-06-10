@@ -25,6 +25,16 @@
            <span target="/channel/myfreeview/tv-ikim/index.html" name="TV IKIM"></span>
            <span target="/channel/myfreeview/tvs/index.html" name="TVS"></span>
 		   <span target="/channel/myfreeview/s8/index.html" name="TEMON SPORT"></span>
+		   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>
+		   <span target="/channel/myfreeview/sctv/index.html" name="SCTV"></span>
+		   <span target="/channel/myfreeview/cctv5/index.html" name="CCTV5"></span>
+		   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
+		   <span target="/channel/myfreeview/fifa/index.html" name="FIFA"></span>
+		   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
+		   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>
+		   <span target="/channel/myfreeview/trans7/index.html" name="TRANS7"></span>
+		   <span target="/channel/myfreeview/transtv/index.html" name="TRANSTV"></span>
+		   <span target="/channel/myfreeview/inews/index.html" name="INEWS"></span>
          </div>
        </div>
     `);
