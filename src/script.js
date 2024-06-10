@@ -37,6 +37,7 @@
 	   <span target="/channel/myfreeview/inews/index.html" name="INEWS"></span>
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
+    	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
          </div>
        </div>
     `);
