@@ -32,8 +32,8 @@
 	   <span target="/channel/myfreeview/fifa/index.html" name="FIFA"></span>
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
 	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>
-	   <span target="/channel/myfreeview/trans7/index.html" name="TRANS7"></span>
-	   <span target="/channel/myfreeview/transtv/index.html" name="TRANSTV"></span>
+	   <span target="/channel/myfreeview/trans7/index.html" name="RCTI"></span>
+	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
 	   <span target="/channel/myfreeview/inews/index.html" name="INEWS"></span>
          </div>
        </div>
