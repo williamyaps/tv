@@ -40,6 +40,7 @@
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
 	   <span target="/channel/myfreeview/kix/index.html" name="KIX"></span>
     	   <span target="/channel/myfreeview/dfc/index.html" name="DFC"></span>
+	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
          </div>
        </div>
     `);
