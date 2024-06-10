@@ -41,6 +41,7 @@
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
+	   <span target="/channel/myfreeview/dfc/idx.html" name="IDX"></span>
 	   <span target="/channel/myfreeview/kix/index.html" name="KIX"></span>
            <span target="/channel/myfreeview/dfc/celestial.html" name="CELESTIAL"></span>
     	   <span target="/channel/myfreeview/dfc/index.html" name="DFC"></span>
