@@ -33,7 +33,7 @@
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
 	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>
 	   <span target="/channel/myfreeview/trans7/index.html" name="RCTI"></span>
-           <span target="/channel/myfreeview/trans7/rtv.html" name="RTV"></span>
+           <span target="/channel/myfreeview/transtv/rtv.html" name="RTV"></span>
 	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
 	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>
@@ -42,6 +42,7 @@
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
 	   <span target="/channel/myfreeview/kix/index.html" name="KIX"></span>
+           <span target="/channel/myfreeview/dfc/celestial.html" name="CELESTIAL"></span>
     	   <span target="/channel/myfreeview/dfc/index.html" name="DFC"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
