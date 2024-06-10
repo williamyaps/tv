@@ -35,6 +35,7 @@
 	   <span target="/channel/myfreeview/trans7/index.html" name="RCTI"></span>
 	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
+	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>
 	   <span target="/channel/myfreeview/inews/index.html" name="INEWS"></span>
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
