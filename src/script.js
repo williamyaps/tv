@@ -47,6 +47,10 @@
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
 	   <span target="/channel/myfreeview/dfc/rockac.html" name="ROCK ACTION"></span>
+    	   <span target="/channel/myfreeview/dfc/rockent.html" name="ROCK ENTERTAIMENT"></span>
+	   <span target="/channel/myfreeview/dfc/mce.html" name="MCE"></span>
+     	   <span target="/channel/myfreeview/dfc/tvn.html" name="TVN"></span>
+	   <span target="/channel/myfreeview/dfc/tvnmov.html" name="TVN MOVIE"></span>
 	   <span target="/channel/myfreeview/kix/index.html" name="KIX"></span>
            <span target="/channel/myfreeview/dfc/celestial.html" name="CELESTIAL"></span>
     	   <span target="/channel/myfreeview/dfc/index.html" name="DFC"></span>
