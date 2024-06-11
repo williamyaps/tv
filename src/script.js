@@ -13,14 +13,14 @@
          <div class="container-list">
            <span id="active" target="/channel/rtm/tv1/index.html" name="TV1"></span>
            <span target="/channel/rtm/tv2/index.html" name="TV2"></span>
+	   <span target="/channel/media-prima/tv3/index.html" name="TV3"></span>
            <span target="/channel/rtm/tv6/index.html" name="TV6"></span>
+	   <span target="/channel/media-prima/8tv/index.html" name="8TV"></span>
+           <span target="/channel/media-prima/tv9/index.html" name="TV9"></span>
            <span target="/channel/rtm/tv-okey/index.html" name="TV OKEY"></span>
            <span target="/channel/rtm/berita-rtm/index.html" name="BERITA RTM"></span>
-           <span target="/channel/rtm/sukan-rtm/index.html" name="SUKAN RTM"></span>
-           <span target="/channel/media-prima/tv3/index.html" name="TV3"></span>
-           <span target="/channel/media-prima/didik-tv/index.html" name="DIDIK TV"></span>
-           <span target="/channel/media-prima/8tv/index.html" name="8TV"></span>
-           <span target="/channel/media-prima/tv9/index.html" name="TV9"></span>
+           <span target="/channel/rtm/sukan-rtm/index.html" name="SUKAN RTM"></span>          
+           <span target="/channel/media-prima/didik-tv/index.html" name="DIDIK TV"></span>  
            <span target="/channel/myfreeview/awani/index.html" name="AWANI"></span>
            <span target="/channel/myfreeview/tv-ikim/index.html" name="TV IKIM"></span>
            <span target="/channel/myfreeview/tvs/index.html" name="TVS"></span>
@@ -58,7 +58,7 @@
     const timeNow = ".timeNow";
     const element = ".container-time .timeNow";
     
-    attr(iframe, {src: "https://zazerconer.github.io/live-tv-malaysia-with-player/channel/rtm/tv1/index.html"});
+    attr(iframe, {src: "https://williamyaps.github.io/tv/channel/rtm/tv1/index.html"});
 
     readyStart(iframe, ()=> {
       style(iframe, {visibility: "visible"});
