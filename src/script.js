@@ -29,6 +29,7 @@
            <span target="/channel/myfreeview/fifa/index.html" name="FIFA"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/fifa2.html" name="FIFA2"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/beinsport.html" name="BEIN SPORTS"></span>
+           <span target="/channel/myfreeview/tv-alhijrah/beinsport2.html" name="BEIN2 SPORTS"></span>
 	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>	   
 	   <span target="/channel/myfreeview/cctv5/index.html" name="CCTV5"></span>
 	   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
@@ -39,8 +40,7 @@
            <span target="/channel/myfreeview/transtv/rtv.html" name="RTV"></span>
 	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
-	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>
-	   <span target="/channel/myfreeview/inews/index.html" name="INEWS"></span>
+	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>	   
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
