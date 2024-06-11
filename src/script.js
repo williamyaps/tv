@@ -46,6 +46,7 @@
 	   <span target="/channel/myfreeview/kix/index.html" name="KIX"></span>
            <span target="/channel/myfreeview/dfc/celestial.html" name="CELESTIAL"></span>
     	   <span target="/channel/myfreeview/dfc/index.html" name="DFC"></span>
+	   <span target="/channel/myfreeview/tv-alhijrah/hbofam.html" name="HBO FAMILY"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/chu.html" name="SPOREU"></span>
