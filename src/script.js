@@ -35,10 +35,11 @@
 	   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
            <span target="/channel/myfreeview/sctv/index.html" name="SCTV"></span>	  
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
-	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>
-	   <span target="/channel/myfreeview/trans7/index.html" name="RCTI"></span>
+	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>	  
            <span target="/channel/myfreeview/transtv/rtv.html" name="RTV"></span>
-	   <span target="/channel/myfreeview/transtv/index.html" name="GTV"></span>
+	   <span target="/channel/myfreeview/dfc/daai.html" name="DAAI"></span>
+           <span target="/channel/myfreeview/dfc/jtv.html" name="JTV"></span>
+	   <span target="/channel/myfreeview/dfc/uchannel.html" name="U CHANNEL"></span>
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
 	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>	   
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
