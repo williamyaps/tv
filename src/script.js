@@ -15,7 +15,8 @@
            <span target="/channel/rtm/tv2/index.html" name="TV2"></span>
 	   <span target="/channel/media-prima/tv3/index.html" name="TV3"></span>
            <span target="/channel/rtm/tv6/index.html" name="TV6"></span>
-	   <span target="/channel/media-prima/8tv/index.html" name="8TV"></span>
+	   <span target="/channel/myfreeview/awani/tv7.html" name="TV7"></span>
+	   <span target="/channel/media-prima/8tv/index.html" name="TV8"></span>
            <span target="/channel/media-prima/tv9/index.html" name="TV9"></span>
            <span target="/channel/rtm/tv-okey/index.html" name="TV OKEY"></span>
            <span target="/channel/rtm/berita-rtm/index.html" name="BERITA RTM"></span>
