@@ -28,7 +28,7 @@
 	   <span target="/channel/myfreeview/s8/index.html" name="TEMON SPORT"></span>
            <span target="/channel/myfreeview/fifa/index.html" name="FIFA"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/fifa2.html" name="FIFA2"></span>
-	   <span target="/channel/myfreeview/tv-alhijrah/beinsport.html" name="BEIN XTTRA"></span>
+	   <span target="/channel/myfreeview/tv-alhijrah/beinsport.html" name="BEIN XTRA"></span>
            <span target="/channel/myfreeview/tv-alhijrah/beinsport1.html" name="BEIN1 SPORTS"></span>
            <span target="/channel/myfreeview/tv-alhijrah/beinsport2.html" name="BEIN2 SPORTS"></span>
 	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>	   
