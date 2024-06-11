@@ -58,6 +58,8 @@
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/chu.html" name="SPOREU"></span>
+    	   <span target="/channel/myfreeview/tv-alhijrah/cna.html" name="SPORE CNA"></span>
+	   <span target="/channel/myfreeview/tv-alhijrah/vasantham.html" name="SPORE VASANTHAM"></span>
            <span target="/channel/myfreeview/tv-alhijrah/suriah.html" name="SPORE SURIAH"></span>
          </div>
        </div>
