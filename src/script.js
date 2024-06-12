@@ -59,7 +59,7 @@
 	   <span target="/channel/myfreeview/tv-alhijrah/hbosig.html" name="HBO SIGNATURE"></span>
     	   <span target="/channel/myfreeview/tv-alhijrah/hbo.html" name="HBO"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/hbomax.html" name="HBO 21+"></span>
-    	   <span target="//embed.4gtv.tv/ftv/M-FTVDrama.html" name="FTV DRAMA"></span>
+    	   <span target="/channel/myfreeview/dfc/krarirang.html" name="ARIRANG KOREA"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/chu.html" name="SPOREU"></span>
