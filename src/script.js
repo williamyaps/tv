@@ -62,6 +62,7 @@
     	   <span target="/channel/myfreeview/dfc/krarirang.html" name="ARIRANG KOREA"></span>
 	   <span target="/channel/myfreeview/dfc/kbsdrama.html" name="KBS DRAMA"></span>
     	   <span target="/channel/myfreeview/dfc/kbs2.html" name="KBS2"></span>
+	   <span target="/channel/myfreeview/dfc/kbsworld.html" name="KBS WORLD"></span>
 	   <span target="/channel/myfreeview/dfc/drakor.html" name="DRAKOR"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
