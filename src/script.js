@@ -46,6 +46,7 @@
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
+	   <span target="/channel/myfreeview/dfc/nusatv.html" name="NUSANTARA TV"></span>
 	   <span target="/channel/myfreeview/dfc/rockac.html" name="ROCK ACTION"></span>
     	   <span target="/channel/myfreeview/dfc/rockent.html" name="ROCK ENTERTAIMENT"></span>
 	   <span target="/channel/myfreeview/dfc/mce.html" name="MCE"></span>
