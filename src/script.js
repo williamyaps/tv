@@ -26,6 +26,7 @@
            <span target="/channel/myfreeview/tv-ikim/index.html" name="TV IKIM"></span>
            <span target="/channel/myfreeview/tvs/index.html" name="TVS"></span>
 	   <span target="/channel/myfreeview/cctv5/makkah.html" name="MAKKAH"></span>
+    	   <span target="/channel/myfreeview/cctv5/iqraa.html" name="IQRAA TV"></span>
 	   <span target="/channel/myfreeview/s8/index.html" name="TEMON SPORT"></span>
            <span target="/channel/myfreeview/fifa/index.html" name="FIFA"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/fifa2.html" name="FIFA2"></span>
