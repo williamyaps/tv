@@ -35,6 +35,7 @@
            <span target="/channel/myfreeview/tv-alhijrah/beinsport2.html" name="BEIN2 SPORTS"></span>
 	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>	   
 	   <span target="/channel/myfreeview/cctv5/index.html" name="CCTV5"></span>
+    	  <span target="/channel/myfreeview/tv-alhijrah/spotv2.html" name="SPOTV2"></span>
 	   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
            <span target="/channel/myfreeview/sctv/index.html" name="SCTV"></span>	  
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
