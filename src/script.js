@@ -43,14 +43,15 @@
 	   <span target="/channel/myfreeview/antv/index.html" name="ANTV"></span>	  
            <span target="/channel/myfreeview/transtv/rtv.html" name="RTV"></span>
 	   <span target="/channel/myfreeview/dfc/daai.html" name="DAAI"></span>
-           <span target="/channel/myfreeview/dfc/jtv.html" name="JTV"></span>
-	   <span target="/channel/myfreeview/dfc/uchannel.html" name="U CHANNEL"></span>
+           <span target="/channel/myfreeview/dfc/jtv.html" name="JTV"></span>	   
     	   <span target="/channel/myfreeview/transtv/transtv.html" name="TRANSTV"></span>
 	   <span target="/channel/myfreeview/transtv/trans7.html" name="TRANS7"></span>	   
     	   <span target="/channel/myfreeview/tvone/index.html" name="TVONE"></span>
 	   <span target="/channel/myfreeview/kompastv/index.html" name="KOMPAS TV"></span>
     	   <span target="/channel/myfreeview/metrotv/index.html" name="METRO TV"></span>
 	   <span target="/channel/myfreeview/dfc/nusatv.html" name="NUSANTARA TV"></span>
+    	   <span target="/channel/myfreeview/dfc/tvri.html" name="TVRI"></span>
+    	   <span target="/channel/myfreeview/dfc/uchannel.html" name="U CHANNEL"></span>
 	   <span target="/channel/myfreeview/dfc/rockac.html" name="ROCK ACTION"></span>
     	   <span target="/channel/myfreeview/dfc/rockent.html" name="ROCK ENTERTAIMENT"></span>
 	   <span target="/channel/myfreeview/dfc/mce.html" name="MCE"></span>
