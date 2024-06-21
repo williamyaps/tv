@@ -36,8 +36,7 @@
 	   <span target="/channel/myfreeview/cctv5/index.html" name="CCTV5"></span>
 	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>	
            <span target="/channel/myfreeview/tv-alhijrah/spotv.html" name="SPOTV"></span>
-    	   <span target="/channel/myfreeview/tv-alhijrah/spotv2.html" name="SPOTV2"></span>
-	   <span target="/channel/myfreeview/tv-alhijrah/skysportcalcio.html" name="SKY SPORT"></span>
+    	   <span target="/channel/myfreeview/tv-alhijrah/spotv2.html" name="SPOTV2"></span>	   
 	   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
            <span target="/channel/myfreeview/sctv/index.html" name="SCTV"></span>	  
 	   <span target="/channel/myfreeview/nets/index.html" name="NET TV"></span>
@@ -71,6 +70,7 @@
 	   <span target="/channel/myfreeview/dfc/kbsworld.html" name="KBS WORLD"></span>
 	   <span target="/channel/myfreeview/dfc/drakor.html" name="DRAKOR"></span>
            <span target="/channel/myfreeview/cctv5/cctv1.html" name="CCTV1"></span>
+	   <span target="/channel/myfreeview/cctv5/cctv2.html" name="CCTV2"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
            <span target="/channel/myfreeview/tv-alhijrah/ch5.html" name="SPORE5"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/chu.html" name="SPOREU"></span>
