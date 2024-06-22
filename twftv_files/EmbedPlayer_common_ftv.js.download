@@ -1,0 +1,1 @@
+var Param=Param||{};Param.GetURLAPI=window.Param.GetURLAPI||'https://app.4gtv.tv/Data/GetChannelURL_Mozai.ashx';Param.ADProject=window.Param.ADProject||'FTV';Param.LoadingPic=window.Param.LoadingPic||'https://embed.4gtv.tv/img/4gTVPlayerMask/loadingbn_FTV.jpg';Param.Debug=typeof window.Param.Debug==='boolean'?Param.Debug:true;
