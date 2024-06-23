@@ -71,6 +71,7 @@
     	   <span target="/channel/myfreeview/dfc/kbs2.html" name="KBS KOREA"></span>
 	   <span target="/channel/myfreeview/dfc/kbsworld.html" name="KBS WORLD"></span>
 	   <span target="/channel/myfreeview/dfc/drakor.html" name="DRAKOR"></span>
+           <span target="/channel/myfreeview/dfc/twfood.html" name="TW FOOD"></span>
            <span target="/channel/myfreeview/cctv5/cctv1.html" name="CCTV1"></span>
 	   <span target="/channel/myfreeview/cctv5/cctv2.html" name="CCTV2"></span>
 	   <span target="/channel/myfreeview/tv-alhijrah/spore.html" name="SPORE8"></span>
