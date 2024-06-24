@@ -35,7 +35,8 @@
            <span target="/channel/myfreeview/tv-alhijrah/beinsport1.html" name="BEIN1 SPORTS"></span>
            <span target="/channel/myfreeview/tv-alhijrah/beinsport2.html" name="BEIN2 SPORTS"></span>
 	   <span target="/channel/myfreeview/cctv5/index.html" name="CCTV5"></span>
-	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>	
+	   <span target="/channel/myfreeview/cctv5plus/index.html" name="CCTV5 PLUS"></span>
+           <span target="/channel/myfreeview/tv-alhijrah/premier.html" name="PREMIER LEAGUE"></span>
            <span target="/channel/myfreeview/tv-alhijrah/spotv.html" name="SPOTV"></span>
     	   <span target="/channel/myfreeview/tv-alhijrah/spotv2.html" name="SPOTV2"></span>	   
 	   <span target="/channel/myfreeview/indosiar/index.html" name="INDOSIAR"></span>
