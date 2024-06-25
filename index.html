@@ -7,6 +7,27 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
+ <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script>
+        $(function(){
+            $("a.hidelink").each(function (index, element){
+                var href = $(this).attr("href");
+                $(this).attr("hiddenhref", href);
+                $(this).removeAttr("href");
+            });
+            $("a.hidelink").click(function(){
+                url = $(this).attr("hiddenhref");
+                window.open(url, '_blank');
+            })
+        });
+    </script>
+    <style>
+        a.ch_list {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+
 <script>
     // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
@@ -99,7 +120,9 @@ function loadVideo(videourl,cname) {
   <img src="https://sb.scorecardresearch.com/p?c1=2&c2=28889464&cv=2.0&cj=1" />
 </noscript> 
 
-<script type="text/javascript" src="./twftv_files/oid" async=""></script></head> -->
+<script type="text/javascript" src="./twftv_files/oid" async=""></script>-->
+
+</head> 
 <body>
 <form name="form1" method="post" action="https://williamyaps.github.io/tv" id="form1">
 <div>
