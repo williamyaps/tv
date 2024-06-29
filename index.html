@@ -6,7 +6,7 @@
 <meta http-equiv="pragma" content="no-cache">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-
+<script src="https://www.youtube.com/iframe_api"/>
 <script>
     // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
@@ -132,6 +132,27 @@ function loadVideo(videourl,cname) {
 </div>
 <div id="chDIV">
 <ul class="ch_list">
+
+<style>
+        .blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+
+<body onload="blink()">
+
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv1/index.html?player_mute=off&#39;,&#39;TV1 Malaysia&#39;);">
 <li>TV1</li>
 </a>
@@ -172,13 +193,16 @@ function loadVideo(videourl,cname) {
 <li>TV IKIM</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tvs/index?player_mute=off&#39;,&#39;TV9 Indonesia&#39;);">
-<li>TV9 INDO</li>
+<li><span class="blink"><b>TV9 INDO</b></span></li>
 </a>
-<a href="javascript:loadVideo(&#39;https://anym3u8player.com/tv/video-player.php?url=https%3A%2F%2Fwww.enterweb.tv%3A25463%2Flive%2Fssadtv%2Flive-tv%2F1.m3u8?player_mute=off&#39;,&#39;MEKKAH ARAB SAUDI&#39;);">
-<li>MAKKAH</li>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/BtGh9XFo7lU?autoplay=1&mute=1&#39;,&#39;MAKKAH YOUTUBE TV&#39;);">
+<li><i class="fa fa-youtube-play margin-right-md fa-spin" style="color:yellowlight;text-shadow:2px 2px 4px #000000;--fa-animation-duration:2s;"></i><span class="blink"> MAKKAH</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/Kt7hKHlArl8?autoplay=1&mute=1&#39;,&#39;MADINA YOUTUBE TV&#39;);">
+<li><span class="blink"><i class="fa fa-youtube-play" style="color:yellowlight"></span></i> MADINA</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/iqraa.html?player_mute=off&#39;,&#39;IQRAA ALQURAN&#39;);">
-<li>IQRAA</li>
+<li><span class="blink"><b>IQRAA</b></span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/s8/index.html?player_mute=off&#39;,&#39;TVRI SPORT&#39;);">
 <li>TVRI SPORT</li>
@@ -259,10 +283,10 @@ function loadVideo(videourl,cname) {
 <li><i class="fa fa-youtube-play" style="color:red"></i> IDX</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/gtv/inewsid?player_mute=off&#39;,&#39;GTV&#39;);">
-<li>GTV</li>
+<li><span class="blink" style="color:#FFF233"><b>GTV</b></span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/inews/inewsid?player_mute=off&#39;,&#39;INEWS&#39;);">
-<li>INEWS</li>
+<li><span class="blink" style="color:#FFF233"><b>INEWS</b></span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/mnctv/inewsid?player_mute=off&#39;,&#39;MNC TV&#39;);">
 <li>MNCTV</li>
@@ -339,7 +363,7 @@ function loadVideo(videourl,cname) {
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/cctv2.html?player_mute=off&#39;,&#39;CCTV2&#39;);">
 <li>CCTV2</li>
 </a>
-<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/twhG7_jvA8g?autoplay=1&mute=1&#39;,&#39;CCTV4 TV YOUTUBE&#39;);">
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/twhG7_jvA8g?modestbranding=1&;showinfo=0&;autohide=1&;rel=0;&autoplay=1&mute=1&#39;,&#39;CCTV4 TV YOUTUBE&#39;);">
 <li><i class="fa fa-youtube-play" style="color:red"></i> CCTV4</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTV.html?player_mute=off&#39;,&#39;民視&#39;);">
