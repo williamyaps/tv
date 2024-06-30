@@ -347,7 +347,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .mode{display:block; width:310px; height:150px; background:url(images/mode_btn.png)#8cbe21 no-repeat; text-indent:-9999px;}
 
-#copyright{display: block; width: 100%;  height: 300px; color:#e9e9e9; text-align:center; padding: 0px 0px;font-size:0.9em;}
+#copyright{display: block; width: 100%;  height: 310px; color:#e9e9e9; text-align:center; padding: 0px 0px;font-size:0.9em;}
 
 #video {
     margin:5px auto;
