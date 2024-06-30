@@ -41,7 +41,7 @@ document.onkeydown = (e) => {
 <title>WILLIAM YAP TELLEVISION</title>
 
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 <script type="text/javascript" src="./twftv_files/jquery.min.js.download"></script>
 <script type="text/javascript" src="./twftv_files/jquery.touchwipe.1.1.1.js.download"></script>
 <script type="text/javascript" src="./twftv_files/jquery.cycle.all.min.js.download"></script>
@@ -151,6 +151,37 @@ function loadVideo(videourl,cname) {
 }
 </style>
 
+<style>
+.pelangi {
+  text-align: center;  
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: Red;
+  }
+  10% {
+    color: Orange;
+  }
+  20% {
+    color: Yellow;
+  }
+  30% {
+    color: Green;
+  }
+  50% {
+    color: White;
+  }
+  75% {
+    color: Indigo;
+  }
+  100% {
+    color: Violet;
+  }
+}
+</style>
+
 <body onload="blink()">
 
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv1/index.html?player_mute=off&#39;,&#39;TV1 Malaysia&#39;);">
@@ -241,7 +272,7 @@ function loadVideo(videourl,cname) {
 <li><i class="fa-solid fa-volleyball" style="color:lightblue"></i> SPOTV2</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/indosiar/indosiar.html?player_mute=off&#39;,&#39;INDOSIAR&#39;);">
-<li>INDOSIAR</li>
+<li><span class="pelangi" style="color:#FFF233"><b>INDOSIAR</b></span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/sctv/index.html?player_mute=off&#39;,&#39;SCTV INDONESIA&#39;);">
 <li>SCTV</li>
@@ -304,10 +335,10 @@ function loadVideo(videourl,cname) {
 <li>U CHANNEL</li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/index.html?player_mute=off&#39;,&#39;DFC&#39;);">
-<li>DFC</li>
+<li><span class="pelangi" style="color:#FFF233"><b>DFC</b></span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/cartoonnetwork.html?player_mute=off&#39;,&#39;CARTOON NETWORK ASIA&#39;);">
-<li>CARTON NETWORK</li>
+<li><span class="font-effect-fire">CARTON NETWORK</span></li>
 </a>
 <a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbofam.html?player_mute=off&#39;,&#39;HOME BOX OFFICE FAMILY&#39;);">
 <li>HBO FAMILY</li>
@@ -413,8 +444,47 @@ function loadVideo(videourl,cname) {
 </div>
 <script type="text/javascript">loadVideo('https://embed.4gtv.tv/ftv/M-FTV.html?player_mute=off','民視');</script>
 
-<footer id="copyright">
-© 2024 WILLIAM YAP TELEVISION <br>free live television streaming Designed by William Yap<br>This only hobby, not for commercial purpose
+<style>
+.kaki {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+
+body {
+  background-color: lightgrey;
+}
+</style>
+
+<style>
+.kaki2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: "Brush Script MT", cursive; 
+  font-size: 2rem;
+  background: linear-gradient(to left, violet, indigo, white, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<footer id="copyright"><span class="kaki2"><b>
+© 2024 William Yap Television<br>free live television streaming Designed by William Yap<br>This only hobby, not for commercial use</b></span>
+<br><<span class="kaki">Hope u enjoy</span>
 </footer>
 
 
