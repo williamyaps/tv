@@ -1,451 +1,672 @@
-*{padding: 0; margin: 0; box-sizing: border-box; -webkit-box-sizing: border-box;}
-html{background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e4e4e4));}
-html,body{padding: 0; margin: 0 auto; width: 100vw; max-width: 720px;box-sizing: border-box; -webkit-box-sizing: border-box; }
-body {
-    font-family: -apple-system，system-ui，“Segoe UI”，Helvetica，Arial，sans-serif，“Apple Color Emoji”，“Segoe UI Emoji”，“Segoe UI Symbol; 
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<!-- saved from url=(0021)https://williamyaps.github.io/tv/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="expires" content="-1">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<script src="https://www.youtube.com/iframe_api"/>
+<script>
+    // Disable right-click
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
 }
 
-header, footer {display:block; width: 100%; clear:both;}
-footer{
-    height:80px; padding: 20px 5px;
-    background: rgba(0, 92, 173, 0.6); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(0, 92, 173, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(0, 92, 173, 0.6) 0%,rgba(0, 0, 0, 0.8) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(0, 92, 173, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005bad', endColorstr='#000000',GradientType=1 ); /* IE6-9 */}
-header,.prg_list a{
-background: #005bad; /* Old browsers */
-background: -moz-linear-gradient(left, #005bad 0%, #000000 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #005bad 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #005bad 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005bad', endColorstr='#000000',GradientType=1 ); /* IE6-9 */}
-header {
-    display:block; width: 100%; 
-	height:50px;
-	position:relative;
-}
-.logo {
-	display:block;
-    background:url(../images/FTV_fullname_w_L.png) no-repeat;
-    background-size: contain;
-	width:96%;
-	height:30px;
-	float:left;
-	text-indent:-9999px;
-	margin:10px 0 0 3px;
-}
-.resp-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
-.resp-iframe{ position: absolute; top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-	border: 0;} 
-	
-.v_chbox{ width: 100%;height: auto; background: #012A3B; color: rgba(255,255,255,0.95);}
-.ch_bar{ display: inline-flex;align-items:center;width: 100%;height: 45px; padding: 5px 8px; line-height: 1.8em; font-size: 1.2em;}
-.ch_now{ width: 50%;color: rgba(255,255,255, 0.75);}
-.ch_now span{color: rgba(255,255,255, 0.55); font-size: 70%;}
-.switch{ width: 50%; height: auto;text-align: right; }
-.switch button{ width: 50px;height: 25px; border-radius: 2em; background-color: rgba(255,255,255,0.60); }
-.switch button img{ width: auto; height: 10px;}
-#chDIV{display: block; width: 100%; height: auto;}
-.ch_list{ display: inline-flex; flex-flow: row wrap; padding: 5px 8px; }
-.ch_list li{ padding: 5px 10px ; border-radius: 25px;  margin: 8px 5px; background-color: #005BAD; color: rgba(255,255,255,1); list-style: none; }
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+}; </script> 
+<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1em}.svg-inline--fa.fa-stack-2x{height:2em;width:2em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style><link rel="stylesheet" href="./twftv_files/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="./twftv_files/layout.css" rel="stylesheet" type="text/css">
+<!--
+<script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script async="" src="./twftv_files/onead-pixel.min.js.download"></script><script src="./twftv_files/all.js.download" type="text/javascript"></script> -->
+<script src="./twftv_files/v4-shims.js.download" type="text/javascript"></script> 
+
+<!--
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>WILLIAM YAP TELLEVISION</title>
 
 
-	
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire-animation">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=3d">
+				
+<script type="text/javascript" src="./twftv_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./twftv_files/jquery.touchwipe.1.1.1.js.download"></script>
+<script type="text/javascript" src="./twftv_files/jquery.cycle.all.min.js.download"></script>
+<script type="text/javascript" language="Javascript">
 
+$(function(){
+  window.scrollTo(0,8);
+});
 
-
-.associate
-{
-	display:block;
-	background:url(images/associate.png) no-repeat;
-	width:58px;
-	height:53px;
-	float:right;
-	text-indent:-9999px;
-	margin:5px 0 0 0;
-}
-
-.associate_on
-{
-	display:block;
-	background:url(images/associate_on.png) no-repeat;
-	width:58px;
-	height:53px;
-	float:right;
-	text-indent:-9999px;
-	margin:5px 0 0 0;
-}
-
-#associate_list{position:absolute; width:310px; height:220px;top:60px;z-index:100; left:1px;}
-.associatelist_on{display:block;}
-.associatelist_off{display:none;}
-
-#associate_list a{
-	font-size:14px;
-	color:#005dac;
-	display:block;
-	width:102px;
-	height:100px;
-	text-align:center;
-	float:left;
-	margin-right:1px;
-	margin-bottom:1px;
-	background:rgba(255,255,255,0.95);
-	text-decoration: none;
-}
-article {
-	width:94%; margin: 10px auto; padding: 5px; position: relative;
-	overflow:hidden;
-}
-.prg_list{ }
-.prg_list a,.prg_list :visited{display: block; width: 96%; height: 50px; text-align: center;font-size: 1.3em;line-height: 2.5em; border-radius: 35px; margin: 20px auto;  color: #ffffff; text-decoration: none;}
-.prg_list :hover{ background: #000000; /* Old browsers */
-background: -moz-linear-gradient(left,  #000000 0%,#005bad 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #000000 0%,#005bad 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #000000 0%,#005bad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#005bad',GradientType=1 ); /* IE6-9 */}}
-
-
-
-
-#navbtn {
-     overflow:hidden; margin: 0 auto; width:100%; margin: 0 auto;}
-#navbtn ul li {
-        display: inline-block; margin: 5px auto; padding: 0 5px;
-        width: 23%; height: auto; font-size: 0.8em; align-content: center; text-align: center; vertical-align: top;
+function getCookie2(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+            //return console.log(c.substring(name.length, c.length));
+        }
     }
-#navbtn ul li a{ text-decoration: none; color: #333333;}
-#navbtn ul li :hover{ text-decoration: none; color: #3550a7;}
-#navbtn ul li img {display: block; border-radius: 50%; background-color: #333333; width:100%; height:auto; margin: 0 auto;}
-#navbtn ul li img:hover{ background-color: #005bad;}
-    
-
-.news_a {
-	background:url(images/navbtn.png)#8cbe21 no-repeat;
-	text-indent:-9999px;
-}
-.event_a {
-	background:url(images/navbtn.png)#de1b43 no-repeat 0 -100px;
-	text-indent:-9999px;
-}
-.program_a {
-	background:url(images/navbtn.png)#8cbe21 no-repeat 0 -200px;
-	text-indent:-9999px;
-}
-.weather_a {
-    /*background:url(images/weahter.png)#03aeda no-repeat;*/
-	color:#fff;
-	text-decoration:none;
-}
-.area {
-	display:block;
-	margin:7px 0 40px 5px;
-	clear:both;
-	height:30px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:18px;
-}
-.temp {
-	display:block;
-	clear:both;
-	height:30px;
-	text-align:right;
-	padding-right:5px;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:18px;
-}
-.news_a, .program_a {
-	margin-right:7px;
-	margin-left:1px;
+    return "";
 }
 
-/**節目宣傳小圖-後台上架**/
-.program_album{
-    position:relative;
-    width: 100%;
-    height: auto;
-    min-height: 110px;
-    overflow: hidden;
+function loadVideo(videourl,cname) {
+  var videopath = videourl;
+  var channel = cname;
+  document.getElementById("video2").innerHTML = '';
+  document.getElementById("video2").innerHTML = '<iframe class="resp-iframe" src="' + videopath + '" frameborder="0" allowfullscreen allow="autoplay"></iframe>';
+  document.getElementById("ch_now").innerHTML = "<span>Nama Channel </span>" + channel;
 }
+</script>
 
-#my_div{
-    width: 92vw;
-    height: auto;
-    top:0; left:0;
-    margin:0; padding: 0; z-index: -10;}
-#my_div img{width: 92vw; height: auto;}
+<!-- <script type="text/javascript">
+  (function () {
 
-.program_album a,.program_album :visited  {
-    display: block;
-	color: #FFFFFF;
-    text-align: right; letter-spacing: 0.2em;
-    text-decoration: none;
-	-webkit-writing-mode: vertical-lr;
-    writing-mode: vertical-lr;
-    height:auto;
-}
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = (document.location.protocol === "https:" ? "https:" : "http:") + "//pixel.onead.com.tw/static/js/onead-pixel.min.js?_t=" + Math.floor((new Date).getTime() / 300000);
+      el.parentNode.insertBefore(s, el);
 
- .program_album_index{
-	position:absolute;
-	width:30%; height:100%; 
-    top:0; right: 0;
-    padding: 5px;
-    background: -moz-linear-gradient(left, rgba(243,25,109,0) 0%, rgba(243,25,109,0.6) 50%, rgba(243,25,109,1) 90%); 
-    background: -webkit-linear-gradient(left, rgba(243,25,109,0) 0%,rgba(243,25,109,00.6) 50%,rgba(243,25,109,1) 90%); 
-    background: linear-gradient(to right, rgba(243,25,109,0) 0%,rgba(243,25,109,0.6) 50%,rgba(243,25,109,1) 90%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f3196d', endColorstr='#f3196d',GradientType=1 ); 
-    text-align: right; 
-	z-index:100;
-}
-.program_album_index a,.program_album_index :visited{
-     position: relative; display: block; border: 1px solid rgb(255, 255, 255, 0.0); padding: 5px 3px; border-radius: 3px;
-     bottom: -15%; right: -65%;
-    }
-.program_album_index :hover{
-     position: relative; display: block; border: 1px solid rgb(255, 255, 255, 0.5); padding: 5px 3px; border-radius: 3px;
-     bottom: -15%; right: -65%;
-    }   
-
-#p_news {
-	clear:both;
-}
-#p_news .header {
-	clear:both;
-	overflow:hidden;
-	margin-bottom:10px;
-}
-#p_news .footer {
-	clear:both;
-	overflow:hidden;
-}
-#p_news h2 {
-	color:#fff;
-	font-size:21px;
-	padding:7px;
-	margin:0 0 7px 0;
-}
-#p_news h2 a {
-    color:#fff;
-    text-decoration:none;
-}
-#p_news .album {
-	width:115px;
-	height:115px;
-	overflow:hidden;
-	margin:0 7px;
-	float:left;
-}
-
-#p_news .album img ,#a_news .album img{margin-left:-20px;}
-
-#p_news .info {
-	color:#fff;
-}
-#p_news ul {
-	margin:0;
-	padding:0;
-	list-style-type: none;
-}
-#p_news ul li {
-	background-color:rgba(0, 0, 0, 0.1);
-	margin-bottom:1px;
-}
-#p_news ul li a {
-	color:#fff;
-	text-decoration:none;
-	line-height:3em;
-	padding-left:20px;
-	background:url(images/arrow.png) no-repeat 7px 4px;
-	font-size:18px;
-}
-
-/**/
-#a_news {
-	clear:both;
-	margin-top:7px;
-}
-#a_news .header {
-	clear:both;
-	overflow:hidden;
-	margin-bottom:10px;
-}
-#a_news .footer {
-	clear:both;
-	overflow:hidden;
-}
-#a_news h2 {
-	color:#fff;
-	font-size:21px;
-	padding:7px;
-	margin:0 0 7px 0;
-}
-#a_news h2 a {
-    color:#fff;
-    text-decoration:none;
-}
-#a_news .album {
-	width:115px;
-	height:115px;
-	overflow:hidden;
-	margin:0 7px;
-	float:left;
-}
-#a_news .info {
-	color:#fff;
-}
-#a_news ul {
-	list-style-type: none;
-}
-#a_news ul li {
-	background-color:rgba(0, 0, 0, 0.1);
-	margin-bottom:1px;
-}
-#a_news ul li a {
-	color:#fff;
-	text-decoration:none;
-	line-height:3em;
-	padding-left:20px;
-	background:url(images/arrow.png) no-repeat 7px 4px;
-	font-size:18px;
-}
-#o_news {margin:7px 0; overflow:hidden;}
-#o_news div{
-	width:151px;
-	float:left;
-}
-#o_news div ul {
-	margin:0;
-	padding:0;
-	list-style-type: none;
-}
-#o_news div ul li {
-	background-color:rgba(0, 0, 0, 0.1);
-	margin-bottom:1px;
-}
-#o_news div ul li a {
-	color:#fff;
-	text-decoration:none;
-	line-height:3em;
-	padding-left:20px;
-	background:url(images/arrow.png) no-repeat 7px 4px;
-	font-size:13px;
-}
-#l_news{
-	margin-right:8px;
-}
-.a_news_btn{text-indent:-9999px; display:block; height:30px; background:url(images/news_a_txt.png)#03aeda bottom right no-repeat; padding-top:10px;}
-.p_news_btn{text-indent:-9999px; display:block; height:30px; background:url(images/news_p_txt.png)#f13d0c bottom right no-repeat; padding-top:10px;}
-.l_news_btn{text-indent:-9999px; display:block; height:30px; background:url(images/news_l_txt.png)#01aaad bottom right no-repeat; padding-top:10px;}
-.s_news_btn{text-indent:-9999px; display:block; height:30px; background:url(images/news_s_txt.png)#01aaad bottom right no-repeat; padding-top:10px;}
-
-.mode{display:block; width:310px; height:150px; background:url(images/mode_btn.png)#8cbe21 no-repeat; text-indent:-9999px;}
-
-#copyright{display: block; width: 100%;  height: 310px; color:#e9e9e9; text-align:center; padding: 0px 0px;font-size:0.9em;}
-
-#video {
-    margin:5px auto;
-    background:url(images/video-bg.jpg) no-repeat;
-	padding:0px 15px;
-}
-
-#imagegallery{width:280px; height:240px;background:#000000;margin:0 auto;margin-top:0px;overflow:hidden;text-align:left;}
-#imagegallery a{text-decoration:none;color:#FFFFFF;margin-top:10px;text-align:left;}
-
-#adG1{
-     margin-left:-6px;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-}
-
-#adG3{
-	  margin:20px auto;
-}
-
-/* 最新消息 近期活動 */
-
-.info h4{
-display:block; color:#de1b43; font-size: 1.3em; line-height: 1.8em; margin-top: 10px;
-/* text-indent:-9999px; */
-}
-.info>h4::before{display: inline-block; font-family: "Font Awesome 5 Free"; font-weight: 900;
-content: "\f1ea"; 
-/* content: "\f1ea";  */
-margin-right: 5px;
-/* font-weight: 900; */}
-#p_news_block {
-clear:both; 
-/* background-color: rgba(0, 0, 0, 0.5); */
-overflow:hidden;
-border-top: solid 1px #c4c4c4;
-border-bottom:solid 1px #c4c4c4;
-margin: 5px auto 15px auto;}
+  })();
+  window.onead_pixel = window.onead_pixel || [];
+  window.onead_pixel.push({
+    uid: 1000187,
+    sessionid: getCookie2("__gads") //媒體用來辨識讀者的唯一識別碼
+  });
+</script>
 
 
-#p_news_block > ul {
-	margin:0 0 0 0px;
-	padding:0 0 0 5px;
-	/* float:left; */
-	width:96%;
-	list-style-type: disc;
-}
-#p_news_block > ul > li {
-	margin-bottom:1px;
-    border-bottom:solid 1px rgba(0, 0, 0, 0.3);
-	padding:8px 0  8px 10px;
+ <script type="text/javascript">
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "28889464" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&c2=28889464&cv=2.0&cj=1" />
+</noscript> 
 
+<script type="text/javascript" src="./twftv_files/oid" async=""></script>-->
+
+</head> 
+<body>
+<form name="form1" method="post" action="https://williamyaps.github.io/tv" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA1ODE3NDE2NA9kFgICAQ9kFgICAQ8WAh4EVGV4dAWzBzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCnZhciBteUltZyA9IG5ldyBBcnJheShbImltYWdlcy9wcm9nQUQvMjAyMzEwXzM1NzE2OF9iLmpwZyIsImh0dHBzOi8vcHJvZ3JhbS5mdHYuY29tLnR3L3Byb2dMaXN0LmFzcHg/aWQ9MjU1IiwiIHRhcmdldD0nX2JsYW5rJyJdKTsNCnZhciBwbGF5SW1nID0gbmV3IEFycmF5KDEpOw0KPC9zY3JpcHQ+DQo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+DQp2YXIgbm93SW5kZXg9MDsNCmZvcih2YXIgaT0wO2k8cGxheUltZy5sZW5ndGg7aSsrKXsNCnBsYXlJbWdbaV0gPSBteUltZ1tpXTsNCn0NCmZ1bmN0aW9uIHNob3dJbWcoKXsNCiQoIiNteV9kaXYiKS5lbXB0eSgpLmFwcGVuZCgiPGEgaHJlZj0nIiArIHBsYXlJbWdbbm93SW5kZXhdWzFdICsgIiciICsgcGxheUltZ1tub3dJbmRleF1bMl0gKyAiPjxpbWcgc3JjPSIgKyBwbGF5SW1nW25vd0luZGV4XVswXSArICIgYm9yZGVyPScwJyB3aWR0aD0nMTAwJSc+PC9hPiIpOw0KJCgiI215X2RpdiIpLmhpZGUoKS5mYWRlSW4oInNsb3ciKTsNCm5vd0luZGV4ID0gKG5vd0luZGV4KzEpPj0gcGxheUltZy5sZW5ndGg/MDpub3dJbmRleCsxOw0KfQ0KPC9zY3JpcHQ+DQo8ZGl2IGNsYXNzPSJwcm9ncmFtX2FsYnVtIiBpZD0icHJvZ3JhbV9hbGJ1bTEiPg0KPGRpdiBjbGFzcz0icHJvZ3JhbV9hbGJ1bV9pbmRleCI+PGEgaHJlZj0iaHR0cHM6Ly9wcm9ncmFtLmZ0di5jb20udHcvIiB0YXJnZXQ9Il9ibGFuayI+56+A55uu57i96Ka9PC9hPjwvZGl2Pg0KPGRpdiBpZD0ibXlfZGl2IiBzdHlsZT0iei1pbmRleDotMTAwIj48L2Rpdj48L2Rpdj4NCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij5zaG93SW1nKCk7PC9zY3JpcHQ+DQo8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+c2V0SW50ZXJ2YWwoInNob3dJbWcoKSIsNDAwMCk7PC9zY3JpcHQ+ZGTtYcROa59aRQvwIrCydVkiCL803A==">
+</div>
+<div>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987">
+</div>
+<div>
+<header>
+<a href="https://williamyaps.github.io/tv" class="logo">WILLIAM YAP TELEVISION FREE LIVE STREAMING</a>
+</header>
+<div class="resp-container">
+
+<div id="video2" style="background:#000000;"><iframe class="resp-iframe" src="./twftv_files/M-FTV.html" frameborder="0" allowfullscreen="" allow="autoplay"></iframe></div>
+</div>
+<div class="v_chbox">
+<div class="ch_bar">
+<div class="ch_now" id="ch_now"><span>現正播放：</span>民視</div>
+<div class="switch">Extend <button id="BTN"><img src="./twftv_files/switch.svg" alt="" class="on" style="transform: rotate(180deg);"></button></div>
+</div>
+<div id="chDIV">
+<ul class="ch_list">
+
+<style>
+        .blink {
+  animation: blink 1s steps(1, end) infinite;
 }
-#p_news_block > ul > li:before {
-	content: "•"; /* Insert content that looks like bullets */
-	margin-right: 5px;
-	color: #005bad; /* Or a color you prefer */
+
+@keyframes blink {
+  0% {
+    opacity: 1;
   }
-#p_news_block > ul> li.end {
-	border-bottom:0;
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-#p_news_block > ul > li > a, #p_news_block > ul > li > :visited{
-	color:#333;
-	text-decoration:none;
-	line-height:1.7em;
-	padding-right:15px;
-	background:url(images/arrow.png) no-repeat right;
-	font-size:17px;
-}
- .Delete {
-        cursor: pointer;
-        position: absolute;
-        right: 6px;
-        top: 6px;
-        width: 20px;
-        height: 20px;
-        transform: rotate(45deg);
+</style>
+
+<style>
+.pelangi {
+  text-align: center;  
+  animation: colorRotate 6s linear 0s infinite;
 }
 
- .Delete:after {
-            width: 2px;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            margin-left: -1px;
- }
+@keyframes colorRotate {
+  from {
+    color: Red;
+  }
+  10% {
+    color: Orange;
+  }
+  20% {
+    color: Yellow;
+  }
+  30% {
+    color: Green;
+  }
+  50% {
+    color: White;
+  }
+  75% {
+    color: Indigo;
+  }
+  100% {
+    color: Violet;
+  }
+}
+</style>
 
- .Delete:before {
-            height: 2px;
-            top: 50%;
-            right: 0;
-            left: 0;
-            margin-top: -1px;
+<body onload="blink()">
+
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv1/index.html?player_mute=off&#39;,&#39;TV1 Malaysia&#39;);">
+<li>TV1</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv2/index.html?player_mute=off&#39;,&#39;TV2 Malaysia&#39;);">
+<li>TV2</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/media-prima/tv3/index.html?player_mute=off&#39;,&#39;TV3 Malaysia&#39;);">
+<li>TV3</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv6/index.html?player_mute=off&#39;,&#39;TV6 Malaysia&#39;);">
+<li>TV6</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/awani/tv7.html?player_mute=off&#39;,&#39;TV7 Malaysia&#39;);">
+<li>TV7</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/media-prima/8tv/index.html?player_mute=off&#39;,&#39;TV8 Malaysia&#39;);">
+<li>TV8</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/media-prima/tv9/index.html?player_mute=off&#39;,&#39;TV9 Malaysia&#39;);">
+<li>TV9</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/tv-okey/index.html?player_mute=off&#39;,&#39;TV OKAY Malaysia&#39;);">
+<li>TV OKAY</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/berita-rtm/index.html?player_mute=off&#39;,&#39;Berita RTM Malaysia&#39;);">
+<li>BERITA RTM</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/rtm/sukan-rtm/index.html?player_mute=off&#39;,&#39;Sukan TV Malaysia&#39;);">
+<li>SUKAN TV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/media-prima/didik-tv/index.html?player_mute=off&#39;,&#39;DIDIK TV Malaysia&#39;);">
+<li>DIDIK TV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/awani/index.html?player_mute=off&#39;,&#39;AWANI TV Malaysia&#39;);">
+<li>AWANI</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-ikim/index.html?player_mute=off&#39;,&#39;TV IKIM Malaysia&#39;);">
+<li>TV IKIM</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tvs/index?player_mute=off&#39;,&#39;TV9 Indonesia&#39;);">
+<li><span class="blink"><b>TV9 INDO</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/BtGh9XFo7lU?autoplay=1&mute=1&#39;,&#39;MAKKAH YOUTUBE TV&#39;);">
+<li><i class="fa fa-youtube-play margin-right-md fa-spin" style="color:yellowlight;text-shadow:2px 2px 4px #000000;--fa-animation-duration:2s;"></i><span class="blink"> MAKKAH</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/Kt7hKHlArl8?autoplay=1&mute=1&#39;,&#39;MADINA YOUTUBE TV&#39;);">
+<li><span class="blink"><i class="fa fa-youtube-play" style="color:yellowlight"></span></i> MADINA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/iqraa.html?player_mute=off&#39;,&#39;IQRAA ALQURAN&#39;);">
+<li><span class="blink"><b>IQRAA</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/s8/index.html?player_mute=off&#39;,&#39;TVRI SPORT&#39;);">
+<li><span class="font-effect-3d"><b>TVRI SPORT</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/fifa/index.html?player_mute=off&#39;,&#39;FIFA&#39;);">
+<li>FIFA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/beinsport.html?player_mute=off&#39;,&#39;BEIN XTRA&#39;);">
+<li>BEIN XTRA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/beinsport3.html?player_mute=off&#39;,&#39;BEIN SPORT&#39;);">
+<li>BEIN SPORT</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/index.html?player_mute=off&#39;,&#39;CCTV5&#39;);">
+<li>CCTV5</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5plus/index.html?player_mute=off&#39;,&#39;CCTV5 PLUS&#39;);">
+<li>CCTV5+</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/premier.html?player_mute=off&#39;,&#39;PREMIER LEAGUE TV&#39;);">
+<li>PREMIER</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/spotv.html?player_mute=off&#39;,&#39;SPOTV&#39;);">
+<li><i class="fa-solid fa-volleyball margin-right-md fa-spin" style="color:lightblue;text-shadow:2px 2px 4px #000000;--fa-animation-duration:2s;"></i> SPOTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/spotv2.html?player_mute=off&#39;,&#39;SPOTV2&#39;);">
+<li><i class="fa-solid fa-volleyball" style="color:lightblue"></i> SPOTV2</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/tvmax.html?player_mute=off&#39;,&#39;TVMAX TV&#39;);">
+<li><i class="fa-solid fa-volleyball" style="color:lightblue"></i> TVMAX</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/tudn.html?player_mute=off&#39;,&#39;ZONE TUDN&#39;);">
+<li><i class="fa-solid fa-volleyball" style="color:lightblue"></i> TUDN</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/sport1.html?player_mute=off&#39;,&#39;ITALIA SPORT1 TV&#39;);">
+<li><i class="fa-solid fa-volleyball" style="color:lightblue"></i> SPORT1</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/sport2.html?player_mute=off&#39;,&#39;ITALIA SPORT2 TV&#39;);">
+<li><span class="font-effect-3d"><i class="fa-solid fa-volleyball" style="color:lightblue"></i> SPORT2</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/indosiar/indosiar.html?player_mute=off&#39;,&#39;INDOSIAR&#39;);">
+<li><span class="pelangi" style="color:#FFF233"><b>INDOSIAR</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/sctv/index.html?player_mute=off&#39;,&#39;SCTV INDONESIA&#39;);">
+<li>SCTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/antv/index.html?player_mute=off&#39;,&#39;ANTV INDONESIA&#39;);">
+<li>ANTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/transtv/rtv.html?player_mute=off&#39;,&#39;RTV INDONESIA&#39;);">
+<li>RTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/daai.html?player_mute=off&#39;,&#39;DAAI INDONESIA&#39;);">
+<li>DAAI</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/jtv.html?player_mute=off&#39;,&#39;JTV INDONESIA&#39;);">
+<li>JTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/indosiar/desa.html&#39;,&#39;DESA WISATA&#39;);">
+<li>DESA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/transtv/transtv.html?player_mute=off&#39;,&#39;TRANS TV INDONESIA&#39;);">
+<li>TRANS TV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/transtv/trans7.html?player_mute=off&#39;,&#39;TRANS7 INDONESIA&#39;);">
+<li>TRANS7</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tvone/index.html?player_mute=off&#39;,&#39;TVONE INDONESIA&#39;);">
+<li>TVONE</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/kompastv/index.html?player_mute=off&#39;,&#39;KOMPAS TV INDONESIA&#39;);">
+<li>KOMPAS TV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/metrotv/index.html?player_mute=off&#39;,&#39;METRO TV INDONESIA&#39;);">
+<li>METRO TV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/XKueVSGTk2o?autoplay=1&mute=1&#39;,&#39;METRO TV YOUTUBE&#39;);">
+<li><i class="fa fa-youtube-play margin-right-md fa-spin" style="color:red;text-shadow:2px 2px 4px #000000;--fa-animation-duration:2s;"></i> METRO</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/WokAzcgVCyc?autoplay=1&mute=1&#39;,&#39;IDX TV YOUTUBE&#39;);">
+<li><i class="fa fa-youtube-play" style="color:red"></i> IDX</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/gtv/inewsid?player_mute=off&#39;,&#39;GTV&#39;);">
+<li>GTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/inews/inewsid?player_mute=off&#39;,&#39;INEWS&#39;);">
+<li>INEWS</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/mnctv/inewsid?player_mute=off&#39;,&#39;MNC TV&#39;);">
+<li>MNCTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.rctiplus.com/live/rcti/inewsid?player_mute=off&#39;,&#39;RCTI+&#39;);">
+<li>RCTI</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/nusatv.html?player_mute=off&#39;,&#39;NUSANTARA TV INDONESIA&#39;);">
+<li>NTV</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/tvri.html?player_mute=off&#39;,&#39;TVRI INDONESIA&#39;);">
+<li>TVRI</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/uchannel.html?player_mute=off&#39;,&#39;U CHANNEL INDONESIA&#39;);">
+<li><span class="blink" style="color:#FFF233"><b>U CHANNEL</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/index.html?player_mute=off&#39;,&#39;DFC&#39;);">
+<li><span class="pelangi" style="color:#FFF233"><b>DFC</b></span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/cartoonnetwork.html?player_mute=off&#39;,&#39;CARTOON NETWORK ASIA&#39;);">
+<li><span class="font-effect-fire-animation">CARTON NETWORK</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbofam.html?player_mute=off&#39;,&#39;HOME BOX OFFICE FAMILY SINGAPORE&#39;);">
+<li><span class="font-effect-fire-animation">HBO FAMILY</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbofamid.html?player_mute=off&#39;,&#39;HOME BOX OFFICE FAMILY INDONESIA&#39;);">
+<li><span class="font-effect-fire-animation">FAMILY ID</span></li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbohit.html?player_mute=off&#39;,&#39;HOME BOX OFFICE HIT SINGAPORE&#39;);">
+<li>HBO HIT</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbohit.html?player_mute=off&#39;,&#39;HBO HIT INDONESIA &#39;);">
+<li>HIT ID</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbosig.html?player_mute=off&#39;,&#39;HOME BOX OFFICE SIGNATURE&#39;);">
+<li>HBO SIGNATURE</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbo.html?player_mute=off&#39;,&#39;HOME BOX OFFICE SINGAPORE&#39;);">
+<li>HBO SG</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hboid.html?player_mute=off&#39;,&#39;HBO INDONESIA&#39;);">
+<li>HBO ID</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/hbomaxid.html?player_mute=off&#39;,&#39;HBO CINEMAX INDONESIA&#39;);">
+<li>CINEMAX</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/rockac.html?player_mute=off&#39;,&#39;ROCK ACTION&#39;);">
+<li>ROCK ACTION</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/rockent.html?player_mute=off&#39;,&#39;ROCK ENTERTAIMENT&#39;);">
+<li>ROCK ENT</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/mce.html?player_mute=off&#39;,&#39;MCE&#39;);">
+<li>MCE</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/celestial.html?player_mute=off&#39;,&#39;CELESTIAL&#39;);">
+<li>CELESTIAL</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/krarirang.html?player_mute=off&#39;,&#39;ARIRANG KOREA&#39;);">
+<li>ARIRANG</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/tvn.html?player_mute=off&#39;,&#39;TVN&#39;);">
+<li>TVN</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/tvnmov.html?player_mute=off&#39;,&#39;TVN MOVIE&#39;);">
+<li>TVN MOVIE</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/kix/index.html?player_mute=off&#39;,&#39;KIX&#39;);">
+<li>KIX</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/kbsdrama.html?player_mute=off&#39;,&#39;KOREA DRAMA&#39;);">
+<li>KBS DRAMA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/kbs2.html?player_mute=off&#39;,&#39;KBS KOREA&#39;);">
+<li>KBS KOREA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/kbsworld.html?player_mute=off&#39;,&#39;KBS WORLD&#39;);">
+<li>KBS WORLD</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/drakor.html?player_mute=off&#39;,&#39;DRAKOR KOREA&#39;);">
+<li>DRAKOR</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/cctv1.html?player_mute=off&#39;,&#39;CCTV1&#39;);">
+<li>CCTV1</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/cctv5/cctv2.html?player_mute=off&#39;,&#39;CCTV2&#39;);">
+<li>CCTV2</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://www.youtube.com/embed/twhG7_jvA8g?modestbranding=1&;showinfo=0&;autohide=1&;rel=0;&autoplay=1&mute=1&#39;,&#39;CCTV4 TV YOUTUBE&#39;);">
+<li><i class="fa fa-youtube-play" style="color:red"></i> CCTV4</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTV.html?player_mute=off&#39;,&#39;民視&#39;);">
+<li>民視</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTVNews.html?player_mute=off&#39;,&#39;民視新聞台&#39;);">
+<li>民視新聞台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FMTV.html?player_mute=off&#39;,&#39;民視第一台&#39;);">
+<li>民視第一台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTTV.html?player_mute=off&#39;,&#39;民視台灣台&#39;);">
+<li>民視台灣台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTVDrama.html?player_mute=off&#39;,&#39;民視影劇台&#39;);">
+<li>民視影劇台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTVVariety.html?player_mute=off&#39;,&#39;民視綜藝台&#39;);">
+<li>民視綜藝台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://embed.4gtv.tv/ftv/M-FTVTravel.html?player_mute=off&#39;,&#39;民視旅遊台&#39;);">
+<li>民視旅遊台</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/dfc/twfood.html?player_mute=off&#39;,&#39;TAIWAN PLUS&#39;);">
+<li>TW PLUS</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/spore.html?player_mute=off&#39;,&#39;SPORE8&#39;);">
+<li>SPORE8</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/chu.html?player_mute=off&#39;,&#39;SPOREU&#39;);">
+<li>SPOREU</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/ch5.html?player_mute=off&#39;,&#39;SPORE5&#39;);">
+<li>SPORE5</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/cna.html?player_mute=off&#39;,&#39;CNA Singapore&#39;);">
+<li>CNA</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/vasantham.html?player_mute=off&#39;,&#39;VASANTHAM&#39;);">
+<li>VASANTHAM</li>
+</a>
+<a href="javascript:loadVideo(&#39;https://williamyaps.github.io/tv/channel/myfreeview/tv-alhijrah/suriah.html?player_mute=off&#39;,&#39;SURIAH&#39;);">
+<li>SURIAH</li>
+</a>
+</ul>
+</div>
+</div>
+<script type="text/javascript">loadVideo('https://embed.4gtv.tv/ftv/M-FTV.html?player_mute=off','民視');</script>
+
+<style>
+.kaki {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
 }
 
- .Delete:after, .Delete:before {
-            background: rgb(255, 255, 255);
-            content: "";
-            position: absolute;
- }
+body {
+  background-color: lightgrey;
+}
+</style>
+
+<style>
+.kaki2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: "Brush Script MT", cursive; 
+  font-size: 2rem;
+  background: linear-gradient(to left, violet, indigo, white, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<footer id="copyright"><span class="kaki2"><b>
+© 2024 William Yap Television<br>free live television streaming Designed by William Yap<br>This only hobby, not for commercial use</b></span>
+<br><span class="blink"><span class="font-effect-fire-animation"><b>to prevent laag when streaming, you can use full screen facility when stream channel<b></span></span>
+<br><span class="kaki">Hope u enjoy</span>
+</footer>
+
+
+</div>
+</form>
+
+
+<script language="JavaScript" type="text/javascript">
+
+var Cookie =
+{
+   set: function(name, value, days)
+   {
+      var domain, domainParts, date, expires, host;
+
+      if (days)
+      {
+         date = new Date();
+         date.setTime(date.getTime()+(days*24*60*60*1000));
+         expires = "; expires="+date.toGMTString();
+      }
+      else
+      {
+         expires = "";
+      }
+
+      host = location.host;
+      if (host.split('.').length === 1)
+      {
+         // no "." in a domain - it's localhost or something similar
+         document.cookie = name+"="+value+expires+"; path=/";
+      }
+      else
+      {
+         // Remember the cookie on all subdomains.
+          //
+         // Start with trying to set cookie to the top domain.
+         // (example: if user is on foo.com, try to set
+         //  cookie to domain ".com")
+         //
+         // If the cookie will not be set, it means ".com"
+         // is a top level domain and we need to
+         // set the cookie to ".foo.com"
+         domainParts = host.split('.');
+         domainParts.shift();
+         domain = '.'+domainParts.join('.');
+
+         document.cookie = name+"="+value+expires+"; path=/; domain="+domain;
+
+         // check if cookie was successfuly set to the given domain
+         // (otherwise it was a Top-Level Domain)
+         if (Cookie.get(name) == null || Cookie.get(name) != value)
+         {
+            // append "." to current domain
+            domain = '.'+host;
+            document.cookie = name+"="+value+expires+"; path=/; domain="+domain;
+         }
+      }
+   },
+
+   get: function(name)
+   {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i=0; i < ca.length; i++)
+      {
+         var c = ca[i];
+         while (c.charAt(0)==' ')
+         {
+            c = c.substring(1,c.length);
+         }
+
+         if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+   },
+
+   erase: function(name)
+   {
+      Cookie.set(name, '', -1);
+   }
+};
+
+
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {   
+    document.cookie = name+'=; Max-Age=-99999999;';  
+}
+
+////Cookie.erase('ftvcookie');
+////var dataAllow = getCookie('ftvcookie');
+
+var dataAllow = Cookie.get('ftvcookie');
+var webdns = '"' + document.location + '"';
+var n=0;
+////alert(dataAllow);
+
+if (dataAllow) {
+    n = webdns.lastIndexOf(dataAllow);
+}
+
+if (dataAllow && n > 0) {
+    $('#Allow').hide();
+} else {
+    $('#Allow').show();
+}
+
+$('#close1').click(function () {
+    Cookie.set('ftvcookie','ftv.com.tw',36500);
+    $('#Allow').hide();
+    //console.log(Cookies.get('ftvcookie'));
+});
+
+$(function() {
+                $("#BTN").find('img').addClass('on').css('transform', 'rotate(180deg)');
+                $("#BTN").click(function(e) {
+                    e.preventDefault();
+                    // $('#chDIV').slideToggle();
+                    // $(this).find('img').css('transform', 'rotate(180deg)');
+                    let FindOn = $(this).find('img').hasClass('on')
+                    if (!FindOn) {
+                        $(this).find('img').addClass('on').css('transform', 'rotate(180deg)');
+                        $('#chDIV').slideDown();
+
+                    } else {
+                        $(this).find('img').removeClass('on').removeAttr('style');
+                        $('#chDIV').slideUp();
+
+                    }
+                });
+
+                // $("#BTN").on("click", OPENOPEN );
+
+                // function OPENOPEN(){
+                //   $("#chDIV").show();
+                // }
+
+                // function CLOSECLOSE(){
+                //   $("chDIV").hide();
+                //   $("#chDIV").attr("style","");
+                // }
+
+            });
+</script>
+
+
+</body></html>
