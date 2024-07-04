@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
+https://d3pj43hdmsyj8q.cloudfront.net/oz1/Channel-OZTVqvs-AWS-tokyo-2/Source-OZTVqvs-10000-1-sxrye5-BP-HD-4-N9pMVSzQs0u6_live.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2"
+https://d3pj43hdmsyj8q.cloudfront.net/oz1/Channel-OZTVqvs-AWS-tokyo-2/Source-OZTVqvs-10000-1-sxrye5-BP-HD-5-Q0vPYCYpU9Cw_live.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=600000,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
+https://d3pj43hdmsyj8q.cloudfront.net/oz1/Channel-OZTVqvs-AWS-tokyo-2/Source-OZTVqvs-10000-1-sxrye5-BP-HD-6-W7mY5uVEtLF4_live.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=400000,RESOLUTION=480x272,CODECS="avc1.640015,mp4a.40.2"
+https://d3pj43hdmsyj8q.cloudfront.net/oz1/Channel-OZTVqvs-AWS-tokyo-2/Source-OZTVqvs-10000-1-sxrye5-BP-HD-7-ZVp2kt0vSMH7_live.m3u8
