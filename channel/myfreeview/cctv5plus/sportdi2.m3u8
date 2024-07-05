@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a,mp4a.40.2",RESOLUTION=1280x720,BANDWIDTH=2600000
+../../../../../manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/e0a61df7-dacf-463e-bda4-1da912a452df/0.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a,mp4a.40.5",RESOLUTION=768x432,BANDWIDTH=1200000
+../../../../../manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/e0a61df7-dacf-463e-bda4-1da912a452df/1.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a,mp4a.40.5",RESOLUTION=320x180,BANDWIDTH=500000
+../../../../../manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/e0a61df7-dacf-463e-bda4-1da912a452df/2.m3u8
+#EXT-X-STREAM-INF:CODECS="avc1.42e00a,mp4a.40.2",RESOLUTION=640x360,BANDWIDTH=750000
+../../../../../manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/e0a61df7-dacf-463e-bda4-1da912a452df/3.m3u8
