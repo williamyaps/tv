@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TV DESA | WILLIAM YAP</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/controls.css">
+  <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/shaka-player.ui.debug.js"></script>
+  
+  <style>
+  *{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;-webkit-border:0;-moz-border:0;border:0;cursor:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;}html,body{width:100vw;width:100svw;height:100vh;height:100svh;background:#000;overflow:hidden;}video{width:100vw;width:100svw;height:100vh;height:100svh;overflow:hidden}.theme-blue .shaka-controls-button-panel .material-icons-round{color:#eee}.theme-blue .shaka-overflow-menu,.theme-blue .shaka-settings-menu{background:rgba(0,0,0,0.8);border-radius:4px;}.theme-blue .shaka-overflow-menu span+span{font-size:80%;color:#fff;padding-top:2px}.theme-blue .shaka-overflow-menu button,.theme-blue .shaka-settings-menu button{color:#fff;transition:all .2s linear;}.theme-blue .shaka-overflow-menu button:hover,.theme-blue .shaka-settings-menu button:hover{background:#3275e4;cursor:auto}
+  </style>
+
+</head>
+<body>
+
+  <div class="theme-blue">
+    <video data-shaka-player id="video" autoplay="true" preload="auto" poster="https://blogger.googleusercontent.com/img/a/AVvXsEiPmE9kXYpqQfGiSlsddVXHD8Zv-1hjtTYbdep3SfeHWOU5MQRFO9WwQWkI9IOPbUCMS6gFq71z_pEKCUEKkn-5HOl1Mb2RDz-MEX_n0hyqBYAkU8j91BXsxO17maDLHdIlT6WFwkIWxEB1AsiF0eb1MVIB-rWR90KFqq6t_R_Iyh-x6-pX0BIhgp1HrHTt"></video>
+  </div>
+
+  <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const video = document.getElementById('video');
+            const sources = [
+                "https://lebo.huminbird.cn/live/ballbar_25210.m3u8",               
+                "https://lebo.huminbird.cn/live/ballbar_15890.m3u8",
+                "https://lebo.huminbird.cn/live/ballbar_17560.m3u8",   
+                 "http://2edddd.netsite.cc/proxy/1213181202/1213181202.m3u8",     
+               // "https://d1u68oyra9spme.cloudfront.net/master_2.m3u8",                           
+                "https://rtvelivestream.akamaized.net/rtvesec/la1/la1_main_dvr.m3u8"
+            ];
+
+            let currentSourceIndex = 0;
+            let hls;
+
+            function playSource(index) {
+                if (hls) {
+                    hls.destroy();
+                }
+
+                if (index < sources.length) {
+                    if (Hls.isSupported()) {
+                        hls = new Hls();
+                        hls.loadSource(sources[index]);
+                        hls.attachMedia(video);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                            video.play();
+                            console.log('Playing source:', sources[index]);
+                        });
+                        hls.on(Hls.Events.ERROR, function (event, data) {
+                            if (data.fatal) {
+                                console.error('Error playing source:', sources[index], data);
+                                playSource(index + 1);
+                            }
+                        });
+                    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                        video.src = sources[index];
+                        video.addEventListener('loadedmetadata', function () {
+                            video.play();
+                            console.log('Playing source:', sources[index]);
+                        });
+                        video.addEventListener('error', function () {
+                            console.error('Error playing source:', sources[index]);
+                            playSource(index + 1);
+                        });
+                    }
+                } else {
+                    console.error('All sources failed');
+                }
+            }
+
+            playSource(currentSourceIndex);
+        });
+    </script>
+
+</body>
+</html>
