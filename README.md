@@ -7,6 +7,6 @@ Daftar Televisi yang dapat di putar dengan aplikasi VLC
 https://williamyaps.github.io/tv/daftar.html
 
 ## Chinese Serial drama
-Daftar Televisi yang dapat di putar dengan aplikasi VLC
+Daftar Serial Kolosal yang bisa ditonton online
 https://williamyaps.github.io/tv/serial.html
 
