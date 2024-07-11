@@ -1,4 +1,16 @@
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="126" tvg-logo="https://www.dens.tv/images/channel-logo/126.jpg" group-title="ðŸŒ€ Dens TV", NaDooKorean
+#EXTVLCOPT:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10
+https://op-krgroup1-swiftservehd-1.dens.tv/h/h125/live.m3u8
+
+#EXTINF:-1 tvg-id="75" tvg-logo="https://www.dens.tv/images/channel-logo/75.jpg" group-title="ðŸŒ€ Dens TV", NaDoo Commerce
+#EXTVLCOPT:http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10
+https://op-group1-swiftservehd-1.dens.tv/h/h126/live.m3u8
+
+#EXTINF:-1 tvg-id="1" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="ðŸŒ€ Dens TV", DensKnowledge
+#KODIPROP:inputstream.adaptive.license_type=http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10
+https://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10
 #EXTINF:-1 tvg-id="102" tvg-logo="https://www.dens.tv/images/channel-logo/102.jpg" group-title="ðŸŒ€ Dens TV", DensShowBiz
@@ -46,16 +58,14 @@ https://op-group1-swiftservehd-1.dens.tv/h/h246/index1.m3u8
 
 
 
-#EXTINF:-1 tvg-id="1" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="ðŸŒ€ Dens TV", DensKnowledge
-https://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
 
-#EXTINF:-1 tvg-id="75" tvg-logo="https://www.dens.tv/images/channel-logo/75.jpg" group-title="ðŸŒ€ Dens TV", NaDoo Commerce
-https://op-group1-swiftservehd-1.dens.tv/h/h126/live.m3u8
 
-#EXTINF:-1 tvg-id="126" tvg-logo="https://www.dens.tv/images/channel-logo/126.jpg" group-title="ðŸŒ€ Dens TV", NaDooKorean
-https://op-krgroup1-swiftservehd-1.dens.tv/h/h125/live.m3u8
+
+
+
 
 #EXTINF:-1 tvg-id="6" tvg-logo="https://www.dens.tv/images/channel-logo/6.jpg" group-title="ðŸŒ€ Dens TV", Metro TV
+#EXTVLCOPT:http-user-agent=android-R+
 https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8
 
 #EXTINF:-1 tvg-id="7" tvg-logo="https://www.dens.tv/images/channel-logo/7.jpg" group-title="ðŸŒ€ Dens TV", tvOne
