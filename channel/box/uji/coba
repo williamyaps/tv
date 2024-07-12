@@ -1,7 +1,20 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-#EXTINF:-1 tvg-id="DensLearningKnowledge.id" tvg-url="https://xmltv.tvkaista.net/guides/dens.tv.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Indonesia Channels",Knowldge
-http://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
+#EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="Indonesia Channels",Indosiar
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="Indonesia Channels",Indosiar
+http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 
 #EXTVLCOPT:http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10 
 #EXTINF:-1 tvg-id="DensLearningKnowledge.id" tvg-url="https://xmltv.tvkaista.net/guides/dens.tv.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Indonesia Channels",Knowldge
-http://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
+http://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="DensKnowledge" tvg-url="https://www.dens.tv/sitemap.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="DensKnowldge - TV Local",Knowldge
+https://op-group1-swiftservehd-1.dens.tv/h/h236/02.m3u8
+
+#EXTINF:-1 tvg-id="42" tvg-logo="https://www.dens.tv/images/channel-logo/42.jpg" group-title="🌀 Dens TV", DensLife and Style
+#EXTVLCOPT:http-referrer=http://www.dens.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+http://op-group1-swiftservehd-1.dens.tv/h/h222/index.m3u8?app_type=web&amp;userid=wnctpm5uf2j&amp;chname=DensLife_n_Style
