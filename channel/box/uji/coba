@@ -1,11 +1,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-#EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="Indonesia Channels",Indosiar
-http://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
-
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
-#EXTINF:-1 tvg-id="DensLearningKnowledge.id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Indonesia Channels",Knowldge
+#EXTINF:-1 tvg-id="DensLearningKnowledge.id" tvg-url="https://xmltv.tvkaista.net/guides/dens.tv.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Indonesia Channels",Knowldge
 http://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
+#EXTVLCOPT:http-user-agent=Trade Me/178.0 (Android: Nokia (Nokia 7.1)); API 10 
 #EXTINF:-1 tvg-id="DensLearningKnowledge.id" tvg-url="https://xmltv.tvkaista.net/guides/dens.tv.xml" tvg-logo="https://www.dens.tv/images/channel-logo/1.jpg" group-title="Indonesia Channels",Knowldge
-https://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
+http://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8
