@@ -1,119 +1,73 @@
-#EXTINF:-1 tvg-id="" tvg-name="ID: Indosiar" tvg-logo="https://i.imgur.com/S5k3QDO.png " group-title=" LIVE EVENT ",INDOSIAR
-#EXTVLCOPT:http-user-agent=OTT Navigator/secure.hometv (Linux;Android) ExoPlayerLib/2.13.2
-https://play.gachor99.my.id:443/hmtv_v3/qKAGARWRTk/008.ts
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SONY SPORTS 1HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/122
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SONY SPORTS 2HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/123
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SONY SPORTS 3HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/124
+#EXTINF:-1 tvg-id="" tvg-name="W SPORTS" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",W SPORTS
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/142
+#EXTINF:-1 tvg-id="" tvg-name="STAR SPORTS 3" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",STARSPORTS 3
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/147
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORT 1HD" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",EUROSPORT 1FHD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/162
+#EXTINF:-1 tvg-id="" tvg-name="EURO Sport 1HD" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",EUROSport 1 HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/110
+#EXTINF:-1 tvg-id="" tvg-name="EUROSPORTS 2" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",EUROSPORTS 2
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/89
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports Premier" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SkySports Premier
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/92
+#EXTINF:-1 tvg-id="" tvg-name="SuperSport Grandstand" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SuperSport Grandstand
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/93
+#EXTINF:-1 tvg-id="" tvg-name="SuperSport Premier" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SuperSport Premier
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/95
+#EXTINF:-1 tvg-id="" tvg-name="SuperSport LALIGA" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SuperSport LALIGA
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/105
+#EXTINF:-1 tvg-id="" tvg-name="SuperSport Football" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SuperSport Football
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/106
+#EXTINF:-1 tvg-id="" tvg-name="WWE Channel" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",WWE Channel
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/107
+#EXTINF:-1 tvg-id="" tvg-name="WWE Channel HD" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",WWE Channel HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/111
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports golf" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SkySports golf
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/112
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sports F1" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",SkySports F1
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/19
+#EXTINF:-1 tvg-id="" tvg-name="VTV 5HD-Test" tvg-logo="https://i.ibb.co/hHs8y6F/shareext-football-logo.jpg" group-title="ShareExt@Relax",VTV 5HD-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/38
 
-#EXTINF:-1 tvg-id="" tvg-name="ID: Indosiar" tvg-logo="https://i.imgur.com/S5k3QDO.png " group-title=" LIVE EVENT ",INDOSIAR HD
-#EXTVLCOPT:http-user-agent=DensTv/3.00.00 (Linux;Android 13) ExoPlayerLib/2.18.1
-https://play.gachor99.my.id:443/hmtv_v3/qKAGARWRTk/9721
-
-EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co.com/jf7QwkY/vijuplusport.png" group-title="ShareExt@PREMIUM✓SPORTS", Viju+ Sport 🇦🇿
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co.com/6sPvZmS/wsport.png" group-title="ShareExt@PREMIUM✓SPORTS", W-SPORT
-#EXTVLCOPT:http-referrer=https://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://op-group1-swiftservehd-1.dens.tv/h/h26/S4/mnf.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv1(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv2(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv3(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch3-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv4(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch4-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv5(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch5-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv6(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch6-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv7(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch7-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv8(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch8-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv9(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch9-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv10(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch10-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv11(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch11-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv12(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch12-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv13(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch13-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv14(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch14-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv15(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch15-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv16(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch16-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv17(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch17-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv18(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch18-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv19(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch19-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv20(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch20-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv21(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch21-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv22(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch22-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv23(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch23-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv24(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch24-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv25(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch25-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv26(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch26-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv27(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch27-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv28(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch28-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv29(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch29-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv30(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch30-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv31(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch31-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv32(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch32-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv33(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch33-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv34(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch34-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv35(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch35-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv36(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch36-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv37(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch37-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv38(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch38-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv39(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch39-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv40(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch40-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv41(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch41-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv42(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch42-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv43(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch43-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv44(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch44-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv45(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch45-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv46(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch46-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv47(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch47-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv48(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch48-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv49(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch49-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv50(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch50-2.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sx1119Z6/Good-Tv-Share-Ext-Group.png" group-title="ShareExt@GoodTVtaiwan",GoodTv51(setAuto)
-https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch51-2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Astro TVB Xing He-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",TVB Xing He-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/50
+#EXTINF:-1 tvg-id="" tvg-name="Astro BOO-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",BOO-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/51
+#EXTINF:-1 tvg-id="" tvg-name="Astro BOO" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",BOO
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/108
+#EXTINF:-1 tvg-id="" tvg-name="Astro Hua Hee Dai-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",Hua Hee Dai-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/52
+#EXTINF:-1 tvg-id="" tvg-name="Astro AEC-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",AEC-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/53
+#EXTINF:-1 tvg-id="" tvg-name="iQIYI HD [Astro]" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",iQIYI HD [Astro]
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/141
+#EXTINF:-1 tvg-id="" tvg-name="Astro WARNA HD" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",WARNA HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/146
+#EXTINF:-1 tvg-id="" tvg-name="Astro Oasis HD" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",Oasis HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/145
+#EXTINF:-1 tvg-id="" tvg-name="HBO ASIA HD" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",HBO ASIA HD
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/17
+#EXTINF:-1 tvg-id="" tvg-name="HBO Family" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",HBO Family
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/78
+#EXTINF:-1 tvg-id="" tvg-name="HBO Signature" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",HBO Signature
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/81
+#EXTINF:-1 tvg-id="" tvg-name="Action HOLLYWOOD MOVIES" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",Action HOLLYWOOD MOVIES
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/24
+#EXTINF:-1 tvg-id="" tvg-name="Phoenix Chinese" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",Phoenix Chinese
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/28
+#EXTINF:-1 tvg-id="" tvg-name="STARMOVIES TV-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",STARMOVIES TV-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/29
+#EXTINF:-1 tvg-id="" tvg-name="STARMOVIES Select HD-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",STARMOVIES Select HD-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/30
+#EXTINF:-1 tvg-id="" tvg-name="SONY MOVIES English SUB" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",SONY MOVIES English SUB
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/32
+#EXTINF:-1 tvg-id="" tvg-name="FTV-Test" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",FTV-Test
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/65
+#EXTINF:-1 tvg-id="" tvg-name="Movies01" tvg-logo="https://i.ibb.co/z7Qjj4R/ASTROTV-shareext-Group.png" group-title="SHAREEXT@Television/MY/ASTRO",Movies01
+http://gmlive.ddns.net:5000/kun5g/kun5g2024/152
