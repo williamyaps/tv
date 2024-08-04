@@ -1,98 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta property="locale" content="en_US">
+   <title> Videojs HLS Adaptive Streaming with quality resolution picker</title>
+   <!--
+  Don't use the "5-unsafe" CDN version in your own code. It will break on you. 
+  Instead go to videojs.com and copy the CDN urls for the latest version.
 
-  <title>WILLIAM YAP TELEVISION</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.4.1/video-js.min.css" rel="stylesheet"> -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.min.css" rel="stylesheet">
+<link href="https://williamyaps.github.io/wlmjavascript/video/videojs-matrix.css" rel="stylesheet"> </link>
+ </head>
+ <body onload="gfg_Run()">
+<div id="instructions">
+	
+  <!-- <b> Standar mp4</b>
+  <video id="my_video_1" class="video-js vjs-default-skin" width="720" height="480px"
+      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+      data-setup='{ "aspectRatio":"720:480", "playbackRates": [1, 1.5, 2] }'>
+    <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+    <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+  </video> -->
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/controls.css">
-  <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/shaka-player.ui.debug.js"></script>
+  <b> Bunny net CDN</b>
+  <video id="my_video_2" class="video-js vjs-default-skin" width="720" height="480px"
+      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+      data-setup='{ "aspectRatio":"720:480", "playbackRates": [1, 1.5, 2, 4, 8] }'>
+    <source src="https://flv.intechmedia.net/live/ch106.m3u8" type='application/x-mpegURL' />    
+  </video>
+  
+  <!-- <b> Tencent CDN</b>
+  <video id="my_video_3" class="video-js vjs-default-skin" width="720" height="480px"
+      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+      data-setup='{ "aspectRatio":"720:480", "playbackRates": [1, 1.5, 2, 4, 8] }'>
+    <source src="https://v9.dious.cc/20230706/xBlKLEM8/index.m3u8" type='application/x-mpegURL' />    
+  </video>
+  
+  <b> Akamai CDN</b>
+  <video id="my_video_4" class="video-js vjs-default-skin" width="720" height="480px"
+      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+      data-setup='{ "aspectRatio":"720:480", "playbackRates": [1, 1.5, 2, 4, 8] }'>
+    <source src="https://mdtp-a.akamaihd.net/id3/prog_index.m3u8" type='application/x-mpegURL' />    
+  </video> -->
+  
+</div>
+  
+<style>
+  #instructions { max-width: 720px; text-align: left; margin: 20px auto; }
+  #instructions textarea { width: 100%; height: 100px; }
+  
+  /* Show the controls (hidden at the start by default) */
+  .video-js .vjs-control-bar { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 
+  /* Make the demo a little prettier */
+  body {
+    margin-top: 10px;
+    background: #e6e6ff;
+    text-align: center; 
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: radial-gradient(#e6f2ff, hsl(200,30%,6%) );
+  }
 
-  <style>
-  *{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;-webkit-border:0;-moz-border:0;border:0;cursor:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;}html,body{width:100vw;width:100svw;height:100vh;height:100svh;background:#000;overflow:hidden;}video{width:100vw;width:100svw;height:100vh;height:100svh;overflow:hidden}.theme-blue .shaka-controls-button-panel .material-icons-round{color:#eee}.theme-blue .shaka-overflow-menu,.theme-blue .shaka-settings-menu{background:rgba(0,0,0,0.8);border-radius:4px;}.theme-blue .shaka-overflow-menu span+span{font-size:80%;color:#fff;padding-top:2px}.theme-blue .shaka-overflow-menu button,.theme-blue .shaka-settings-menu button{color:#fff;transition:all .2s linear;}.theme-blue .shaka-overflow-menu button:hover,.theme-blue .shaka-settings-menu button:hover{background:#3275e4;cursor:auto}
-  </style>
-
-</head>
-<body>
-
-  <div class="theme-blue">
-    <video data-shaka-player id="video" autoplay="true" preload="auto" poster="https://blogger.googleusercontent.com/img/a/AVvXsEiPmE9kXYpqQfGiSlsddVXHD8Zv-1hjtTYbdep3SfeHWOU5MQRFO9WwQWkI9IOPbUCMS6gFq71z_pEKCUEKkn-5HOl1Mb2RDz-MEX_n0hyqBYAkU8j91BXsxO17maDLHdIlT6WFwkIWxEB1AsiF0eb1MVIB-rWR90KFqq6t_R_Iyh-x6-pX0BIhgp1HrHTt"></video>
-  </div>
-
-  <script>
-    const manifestUri = 'https://flv.intechmedia.net/live/ch106.m3u8';
-
-    function initApp() {
-      shaka.polyfill.installAll();
-      if (shaka.Player.isBrowserSupported()) {
-        init();
-      } else {
-        console.error('Browser not supported!');
-      }
-    }
-
-    async function init() {
-      const video = document.getElementById('video');
-      const ui = video['ui'];
-      const controls = ui.getControls();
-      const player = controls.getPlayer();
-      const config = {
-        'seekBarColors': {
-          base: 'rgba(66, 133, 244, 0.35)',
-          buffered: 'rgba(66, 133, 244, 0.6)',
-          played: 'rgba(66, 133, 244, 0.8)',
-        },
-        'volumeBarColors': {
-          base: 'rgba(66, 133, 244, 0.8)',
-          level: 'rgb(66, 133, 244)',
-        }
-      }
-      ui.configure(config);
-
-      window.player = player;
-      window.ui = ui;
-      window.controls = controls;
-
-      player.addEventListener("error", onPlayerErrorEvent);
-      controls.addEventListener("error", onUIErrorEvent);
-
-      try {
-        await player.load(manifestUri);
-        console.log('The video has now been loaded!');
-      } catch (error) {
-        onPlayerError(error);
-      }
-
-      function onPlayerErrorEvent(errorEvent) {
-        onPlayerError(event.detail);
-      }
-
-      function onPlayerError(error) {
-        console.error('Error code', error.code + ':', 'Video could not be loaded!', '[Media not found].');
-      }
-
-      function onUIErrorEvent(errorEvent) {
-        onPlayerError(event.detail);
-      }
-    }
-
-    function initFailed(errorEvent) {
-      console.error('Unable to load the UI library!');
-    }
-
-    document.addEventListener('shaka-ui-loaded', init);
-    document.addEventListener('shaka-ui-load-failed', initFailed);
-    document.addEventListener('DOMContentLoaded', initApp);
-
-    Object.defineProperty(navigator, 'userAgent', {
-      get: function() { // Latest (Feb 18, 2024)
-        return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Firefox/122.0 Edg/121.0.2277.112 OPR/107.0.0.0 UCBrowser/16.3.0.1281 Vivaldi/6.5.3206.63 YaBrowser/23.9.0.2325 Yowser/2.5 Safari/537.36';
-      }
-    });
-  </script>
-
-</body>
-</html>
+  a, a:hover, a:visited { color: #76DAFF; }
+</style>
+      
+<script src="https://vjs.zencdn.net/7.4.1/video.js"></script> 
+     
+<script> 
+var el_up = document.getElementById("GFG_UP"); 
+var el_down = document.getElementById("GFG_DOWN"); 
+el_up.innerHTML = "Click on the button to disable right click"; 
+ 
+function gfg_Run() { 
+document.addEventListener('contextmenu',  
+event => event.preventDefault()); 
+el_down.innerHTML = "Right click disabled"; 
+}          
+</script>  
+     </body>
+    </html>
